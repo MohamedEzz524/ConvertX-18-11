@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1126" height="1602" fill="none" xmlns:v="https://vecta.io/nano">
+<style>
+<![CDATA[.B{stroke-width:2}.C{stroke-linecap:round}.D{opacity:.4}.E{opacity:.6}.F{opacity:.8}.G{color-interpolation-filters:sRGB}.H{flood-opacity:0}]]>
+</style>
+<g class="B C">
+<use href="#N" stroke="url(#D)" class="D"/>
+<use href="#N" x="80" stroke="url(#E)" class="E"/>
+<use href="#N" x="160" stroke="url(#F)" class="F"/>
+<use href="#N" x="240" stroke="url(#G)"/>
+<use href="#N" x="320" stroke="url(#H)"/>
+<use href="#N" x="400" stroke="url(#I)"/>
+<use href="#N" x="485" stroke="url(#J)" class="F"/>
+<use href="#N" x="565" stroke="url(#K)" class="E"/>
+<use href="#N" x="645" stroke="url(#L)" class="D"/>
+</g>
+<g filter="url(#A)" class="B C">
+<use href="#N" stroke="url(#D)" class="D"/>
+<use href="#N" x="80" stroke="url(#E)" class="E"/>
+<use href="#N" x="160" stroke="url(#F)" class="F"/>
+<use href="#N" x="240" stroke="url(#G)"/>
+<use href="#N" x="320" stroke="url(#H)"/>
+<use href="#N" x="400" stroke="url(#I)"/>
+<use href="#N" x="485" stroke="url(#J)" class="F"/>
+<use href="#N" x="565" stroke="url(#K)" class="E"/>
+<use href="#N" x="645" stroke="url(#L)" class="D"/>
+</g>
+<g filter="url(#B)">
+<rect x="336.476" y="336" width="453.16" height="929.817" rx="77.205" fill="#df1124"/>
+</g>
+<g filter="url(#C)" class="D">
+<rect x="336.476" y="336" width="453.16" height="929.817" rx="77.205" fill="#df1124"/>
+</g>
+<defs>
+<filter id="A" x="207" y="207" width="687" height="1242" filterUnits="userSpaceOnUse" class="G">
+<feFlood class="H"/>
+<feBlend in="SourceGraphic"/>
+<feGaussianBlur stdDeviation="10"/>
+</filter>
+<filter id="B" x="314.097" y="313.622" width="497.916" height="974.574" filterUnits="userSpaceOnUse" class="G">
+<feFlood class="H"/>
+<feBlend in="SourceGraphic"/>
+<feGaussianBlur stdDeviation="11.189"/>
+</filter>
+<filter id="C" x=".802" y=".326" width="1124.51" height="1601.17" filterUnits="userSpaceOnUse" class="G">
+<feFlood class="H"/>
+<feBlend in="SourceGraphic"/>
+<feGaussianBlur stdDeviation="167.837"/>
+</filter>
+<linearGradient id="D" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".151" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="E" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".326" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="F" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".43" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="G" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".521" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="H" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".554" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="I" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".396" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="J" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".403" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="K" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".262" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="L" x1="228.5" y1="228" x2="228.5" y2="1428" href="#O">
+<stop stop-color="#df1124" stop-opacity="0"/>
+<stop offset=".211" stop-color="#df1124"/>
+<stop offset="1" stop-color="#df1124" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="M">
+<path fill="#fff" transform="translate(335.95 1295.53)" d="M0 0h453.686v25.452H0z"/>
+</clipPath>
+<path id="N" d="M228 228V1428"/>
+<linearGradient id="O" gradientUnits="userSpaceOnUse"/>
+</defs>
+</svg>

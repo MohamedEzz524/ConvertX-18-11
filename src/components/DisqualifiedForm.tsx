@@ -414,9 +414,9 @@ const DisqualifiedForm = () => {
           What happens next?
         </p>
         <p className="text-sm text-slate-400">
-          After you submit this form, someone from our team will review your
-          submission and contact you within 24-48 hours to validate teh data and
-          schedule your consultation time.
+          After you submit this form with your transaction screenshot, someone
+          from our team will review your submission and contact you within 24-48
+          hours to schedule your consultation time.
         </p>
       </div>
 

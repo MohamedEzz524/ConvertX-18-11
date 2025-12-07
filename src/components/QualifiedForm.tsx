@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import type { FormEvent, ChangeEvent } from 'react';
+import type { FormEvent } from 'react';
 
 // Define which fields are required
 const REQUIRED_FIELDS = {
@@ -59,11 +59,11 @@ const QualifiedForm = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files[0]) {
-      setScreenshot(e.target.files[0]);
-    }
-  };
+  // const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   if (e.target.files && e.target.files[0]) {
+  //     setScreenshot(e.target.files[0]);
+  //   }
+  // };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -234,7 +234,7 @@ const QualifiedForm = () => {
         </div>
 
         {/* Row 3: Image Upload */}
-        <div className="flex flex-col gap-6">
+        {/* <div className="flex flex-col gap-6">
           <div className="flex-1">
             <label
               htmlFor="screenshot"
@@ -258,7 +258,7 @@ const QualifiedForm = () => {
               </p>
             )}
           </div>
-        </div>
+        </div> */}
 
         {/* Row 4: Business Goals */}
         <div className="flex flex-col gap-6">

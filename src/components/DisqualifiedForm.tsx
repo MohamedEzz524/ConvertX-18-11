@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import type { FormEvent, ChangeEvent } from 'react';
+import type { FormEvent } from 'react';
 
 // Define which fields are required (no * = optional)
 const REQUIRED_FIELDS = {
@@ -69,11 +69,11 @@ const DisqualifiedForm = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files[0]) {
-      setTransactionScreenshot(e.target.files[0]);
-    }
-  };
+  // const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   if (e.target.files && e.target.files[0]) {
+  //     setTransactionScreenshot(e.target.files[0]);
+  //   }
+  // };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -343,7 +343,7 @@ const DisqualifiedForm = () => {
         </div>
 
         {/* Transaction Screenshot Upload */}
-        <div>
+        {/* <div>
           <label
             htmlFor="transactionScreenshot"
             className="text-textPrimary mb-2 block text-sm font-medium"
@@ -368,7 +368,7 @@ const DisqualifiedForm = () => {
               Selected: {transactionScreenshot.name}
             </p>
           )}
-        </div>
+        </div> */}
 
         {/* Submit button */}
         <div className="flex justify-center md:justify-start">
